@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gcpcompetedashboard-dev-133722-authRole",
+      "UnauthRoleArn": "arn:aws:iam::014742145188:role/amplify-gcpcompetedashboard-dev-133722-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::014742145188:role/amplify-gcpcompetedashboard-dev-133722-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-gcpcompetedashboard-dev-133722-deployment",
+      "UnauthRoleName": "amplify-gcpcompetedashboard-dev-133722-unauthRole",
+      "StackName": "amplify-gcpcompetedashboard-dev-133722",
+      "StackId": "arn:aws:cloudformation:us-west-2:014742145188:stack/amplify-gcpcompetedashboard-dev-133722/3db9ab00-18ec-11ed-82eb-025e2690b45d",
+      "AmplifyAppId": "d3vg9t63jejen1"
+    }
+  }
+}
