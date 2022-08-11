@@ -120,7 +120,7 @@ function App() {
             "Authorization": auth
           };
           const apiResponse = await fetch(
-            "https://te1ifmd6f9.execute-api.us-west-2.amazonaws.com/v4/read",
+            "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/read",
             { headers }
           );
           const apiResponseJSON = await apiResponse.json();
@@ -152,7 +152,7 @@ function App() {
           "Authorization": auth
         };
         const apiResponse = await fetch(
-          "https://te1ifmd6f9.execute-api.us-west-2.amazonaws.com/v4/read",
+          "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/read",
           { headers }
         );
         const apiResponseJSON = await apiResponse.json();
@@ -207,7 +207,7 @@ function App() {
         };
         // Make the API Call
         const apiResponse = await fetch(
-          "https://te1ifmd6f9.execute-api.us-west-2.amazonaws.com/v3/create",
+          "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/create",
           requestOptions
         ).then((response) => response.text())
         .catch((error) => console.log("error", error));
@@ -261,7 +261,7 @@ function App() {
         };
         // make API call with parameters and use promises to get response
         await fetch(
-          "https://te1ifmd6f9.execute-api.us-west-2.amazonaws.com/v5/delete",
+          "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/delete",
           requestOptions
         ).then((response) => response.text())
         .catch((error) => console.log("error", error));
@@ -374,7 +374,7 @@ function App() {
       async function editGobj(request, clearVar) {
         // make API call with parameters and use promises to get response
         await fetch(
-        "https://te1ifmd6f9.execute-api.us-west-2.amazonaws.com/v6/edit",
+        "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/edit",
         request
         ).then((response) => response.text())
         .catch((error) => console.log("error", error));
