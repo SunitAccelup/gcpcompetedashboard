@@ -120,7 +120,7 @@ function App() {
             "Authorization": auth
           };
           const apiResponse = await fetch(
-            "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/read",
+            "https://5bph06mfz9.execute-api.us-west-2.amazonaws.com/test/read",
             { headers }
           );
           const apiResponseJSON = await apiResponse.json();
@@ -152,7 +152,7 @@ function App() {
           "Authorization": auth
         };
         const apiResponse = await fetch(
-          "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/read",
+          "https://5bph06mfz9.execute-api.us-west-2.amazonaws.com/test/read",
           { headers }
         );
         const apiResponseJSON = await apiResponse.json();
@@ -207,7 +207,7 @@ function App() {
         };
         // Make the API Call
         const apiResponse = await fetch(
-          "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/create",
+          "https://5bph06mfz9.execute-api.us-west-2.amazonaws.com/test/create",
           requestOptions
         ).then((response) => response.text())
         .catch((error) => console.log("error", error));
@@ -261,7 +261,7 @@ function App() {
         };
         // make API call with parameters and use promises to get response
         await fetch(
-          "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/delete",
+          "https://5bph06mfz9.execute-api.us-west-2.amazonaws.com/test/delete",
           requestOptions
         ).then((response) => response.text())
         .catch((error) => console.log("error", error));
@@ -374,7 +374,7 @@ function App() {
       async function editGobj(request, clearVar) {
         // make API call with parameters and use promises to get response
         await fetch(
-        "https://6kpc4mr0v0.execute-api.us-west-2.amazonaws.com/Test/edit",
+        "https://5bph06mfz9.execute-api.us-west-2.amazonaws.com/test/edit",
         request
         ).then((response) => response.text())
         .catch((error) => console.log("error", error));
