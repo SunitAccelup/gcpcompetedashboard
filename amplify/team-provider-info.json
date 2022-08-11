@@ -10,6 +10,11 @@
       "StackName": "amplify-gcpcompetedashboard-dev-133722",
       "StackId": "arn:aws:cloudformation:us-west-2:014742145188:stack/amplify-gcpcompetedashboard-dev-133722/3db9ab00-18ec-11ed-82eb-025e2690b45d",
       "AmplifyAppId": "d3vg9t63jejen1"
+    },
+    "categories": {
+      "auth": {
+        "gcpcompetedashboardf6711c19": {}
+      }
     }
   }
 }
