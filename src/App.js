@@ -485,7 +485,7 @@ function App() {
               Sign Out
             </Button>
           </div>
-          <Heading level={1}>Dashboard</Heading>
+                  <Heading level={1}>AWS vs GCP Services Comparison (Customer Feedback)</Heading>
 
           {/* Pagination Component */}
           {/* <Page postsPerPage={postsPerPage} totalPosts={posts.length} paginate={paginate} gobjs={gobjs}></Page> */}
@@ -519,7 +519,7 @@ function App() {
                     </TableCell>
                     <TableCell className="theadCell">
                       <b>
-                        Customer, SA, <i>Gap</i>
+                          Customer
                       </b>
                     </TableCell>
                     <TableCell>
