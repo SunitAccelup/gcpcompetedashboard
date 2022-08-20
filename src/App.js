@@ -94,7 +94,8 @@ function App() {
             fontSize: { value: "{fontSizes.xl}" },
           },
           data: {
-            fontWeight: { value: "{fontWeights.semibold}" },
+              fontWeight: { value: "{fontWeights.semibold}" },
+              style: { value: "{textAlign.left}"},
           },
         },
       },
