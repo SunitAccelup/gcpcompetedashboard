@@ -513,7 +513,14 @@ function App() {
           <div className="tableDiv">
             <ThemeProvider theme={theme} colorMode="light">
               <Table highlightOnHover variation="striped">
-                <TableHead>
+                 <TableHead>
+                 <TableRow>
+                    <TableCell>
+                         <ToggleButton onClick={() => changeAdding()}>
+                               {adding ? <>HIDE</> : <>ADD </>}
+                          </ToggleButton>
+                    </TableCell>
+                  </TableRow>
                   <TableRow>
                     <TableCell>
                       <b>SA</b>
@@ -540,11 +547,6 @@ function App() {
                     </TableCell>
                     <TableCell>
                       <b>Service Team PFR / Roadmap</b>
-                    </TableCell>
-                    <TableCell>
-                      <ToggleButton onClick={() => changeAdding()}>
-                        {adding ? <>HIDE</> : <>ADD </>}
-                      </ToggleButton>
                     </TableCell>
                   </TableRow>
                 </TableHead>
