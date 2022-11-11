@@ -1,0 +1,4 @@
+git status
+git add .
+git push origin master
+git commit -m 'changed table headers'

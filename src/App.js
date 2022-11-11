@@ -522,12 +522,15 @@ function App() {
                     </TableCell>
                   </TableRow>
                   <TableRow>
+                      <TableCell>
+                       <b>Submission Date</b>
+                     </TableCell>
                     <TableCell>
                       <b>SA</b>
                     </TableCell>
                     <TableCell className="theadCell">
                       <b>
-                          Customer
+                        Customer
                       </b>
                     </TableCell>
                     <TableCell>
@@ -538,15 +541,14 @@ function App() {
                     </TableCell>
                     <TableCell>
                       <b>
-                        Win / Loss to GCP? Key factor resulting in loss and
-                        learnings
+                        Key Factor related to win/loss
                       </b>
                     </TableCell>
                     <TableCell>
-                      <b>Priority / AWS GCP Compete Team Response</b>
+                      <b>Customer Priority</b>
                     </TableCell>
                     <TableCell>
-                      <b>Service Team PFR / Roadmap</b>
+                      <b>SFDC opportunity ID/Service Team PFR</b>
                     </TableCell>
                   </TableRow>
                 </TableHead>
@@ -783,8 +785,11 @@ function App() {
                           </>
                         ) : (
                           <>
-                            <TableRow key={gobj.id}>
-                              <TableCell fontSize="var(--amplify-font-sizes-small)">
+                             <TableRow key={gobj.id}>
+                               <TableCell fontSize="var(--amplify-font-sizes-small)">
+                                   {gobj.created_at.slice(0,10)}
+                                </TableCell>
+                               <TableCell fontSize="var(--amplify-font-sizes-small)">
                                 <a
                                   href={`https://phonetool.amazon.com/users/${gobj.user.slice(
                                     15
