@@ -556,7 +556,13 @@ function App() {
                 <TableBody>
                   {adding ? (
                     <>
-                      <TableRow>
+                    <TableRow>
+                         <TableCell>
+                             {/* Production */}
+                             <b>Today</b>
+                             {/* testUser */}
+                         </TableCell>
+
                         {/* User */}
                         <TableCell>
                           {/* Production */}
@@ -674,7 +680,10 @@ function App() {
                         {gobj.id == editid ? (
                           <>
                             {/* Row for editing */}
-                            <TableRow>
+                           <TableRow>
+                                <TableCell>
+                                   {gobj.created_at.slice(0, 10)}
+                                </TableCell>
                               {/* User */}
                               <TableCell>
                                 {gobj.user.slice(15)}
